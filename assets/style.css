@@ -1,0 +1,122 @@
+html * {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	/* Safari 3.1+ */
+	-moz-user-select: none;
+	/* Firefox 2+ */
+	-ms-user-select: none;
+	/* IE 10+ */
+	user-select: none;
+	/* Standard syntax */
+}
+
+body {
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.sm-icon {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.navbar li {
+	display: inline;
+}
+
+@font-face {
+	font-family: q;
+	src: url('qfont.ttf');
+}
+
+.quote {
+	color: snow;
+	font-family: q;
+	width: 35%;
+	position: absolute;
+	right: 100px;
+	text-align: right;
+	font-size: 2.5em;
+
+}
+.quoter{
+	transform: rotate(90deg);
+	position: absolute;
+	top: 40px;
+	font-family: q;
+	font-size: .4em;
+	right: -70px;
+	
+}
+.buttons{
+	width: 100%;
+	position: absolute;
+	color: rgb(72,129,114);
+	bottom: 100px;
+	text-align: center;
+	font-size: 2em;
+	
+}
+.about-button{
+	display: inline-block;
+	background-color: snow;
+	border: 3px solid rgb(72,129,114);
+	padding: 10px;
+	cursor: pointer;
+	transition: all .4s;
+}
+.about-button:hover{
+	background-color: rgb(72,129,114);
+	color: snow;
+	border: 3px solid snow;
+}
+.contact-button{
+	display: inline-block;
+	background-color: rgb(72,129,114);
+	padding: 10px;
+	color: snow;
+	border: 3px solid snow;
+	cursor: pointer;
+	transition: all .4s;
+}
+.contact-button:hover{
+	background-color: snow;
+	color: rgb(72,129,114);
+	border: 3px solid rgb(72,129,114);
+}
+
+@media only screen and (max-width: 450px) {
+	body {
+		background-image: url('bgs.jpg');
+	}
+	.sm-icon {
+		width: 35px;
+		height: 35px;
+	}
+	.quote{
+		font-size: 1.5em;
+		right: 40px;
+		width: 80%;
+		top: 70px;
+	}
+	.quoter{
+		top: 25px;
+		right: -35px;
+	}
+	.buttons{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		background-image: url('bgs.jpg');
+	}
+}
