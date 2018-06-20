@@ -44,6 +44,7 @@ body {
 	right: 100px;
 	text-align: right;
 	font-size: 2.5em;
+	user-select: text;
 
 }
 .quoter{
@@ -66,30 +67,32 @@ body {
 }
 .about-button{
 	display: inline-block;
-	background-color: snow;
+	background-color: rgb(72,129,114);
 	border: 3px solid rgb(72,129,114);
 	padding: 10px;
 	cursor: pointer;
 	transition: all .4s;
+	color: snow;
 }
 .about-button:hover{
-	background-color: rgb(72,129,114);
-	color: snow;
-	border: 3px solid snow;
+	background-color: #004D40;
+	border: 3px solid  #004D40;
+	
 }
 .contact-button{
 	display: inline-block;
-	background-color: rgb(72,129,114);
+	background-color: rgba(10,10,10, 0.8);
 	padding: 10px;
 	color: snow;
-	border: 3px solid snow;
+	border: 3px solid black;
 	cursor: pointer;
 	transition: all .4s;
 }
 .contact-button:hover{
-	background-color: snow;
-	color: rgb(72,129,114);
-	border: 3px solid rgb(72,129,114);
+	border-right: 3px solid snow;
+	border-left: 3px solid snow;
+	color: snow;
+	border-radius: 10px;
 }
 
 @media only screen and (max-width: 450px) {
