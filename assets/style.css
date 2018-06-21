@@ -16,7 +16,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-
+	background-color: black;
 
 }
 
@@ -122,4 +122,16 @@ body {
 	body {
 		background-image: url('bgs.jpg');
 	}
+}
+a:link{
+	text-decoration: none;
+	color: snow;
+}
+a:hover{
+	text-decoration: none;
+	color: snow;
+}
+a:active{
+	text-decoration: none;
+	color: snow;
 }
