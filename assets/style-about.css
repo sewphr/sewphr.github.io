@@ -65,6 +65,7 @@ body {
 .pp {
 	position: relative;
 	border: 10px solid #04562A;
+	
 	border-radius: 9px;
 	width: 300px;
 	height: 300px;
@@ -72,6 +73,7 @@ body {
 	top: -150px;
 	margin-left: auto;
 	margin-right: auto;
+	box-shadow: 3px 3px 5px;
 
 }
 
@@ -155,6 +157,7 @@ body {
 	left: 35px;
 	font-size: 3em;
 	font-family: q;
+	box-shadow: 3px 3px 5px;
 	display: inline;
 }
 

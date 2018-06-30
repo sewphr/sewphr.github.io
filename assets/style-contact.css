@@ -2,7 +2,10 @@
 	width: 150px;
 	height: 150px;
 	margin: 35px;
+	
+	transition: all .4s;
 }
+
 
 
 html {
@@ -30,6 +33,7 @@ body {
 	border: 10px solid #04562A;
 	border-radius: 9px;
 	padding: 0 30px;
+	box-shadow: 2px 2px 5px ;
 	position: relative;
 	top: -45px;
 	left: 35px;
