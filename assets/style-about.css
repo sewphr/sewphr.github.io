@@ -6,6 +6,7 @@ html {
 
 body {
 	background-image: url(bga.png);
+	background-color: #023118;
 }
 
 .sm-icon {
@@ -31,6 +32,7 @@ body {
 	width: 50%;
 	display: inline;
 }
+
 .half1 {
 	margin: 0;
 	position: absolute;
@@ -54,7 +56,7 @@ body {
 	margin: 0 5%;
 	background-color: snow;
 	top: 150px;
-	
+
 	border-radius: 7px;
 	padding: 20px;
 
@@ -70,13 +72,77 @@ body {
 	top: -150px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .ab-text {
 	position: relative;
 	top: -150px;
 	margin: 20px;
+	text-align: justify;
 	font-family: q;
+	font-size: 1.58em;
+}
+
+@media only screen and (max-width: 1290px) {
+	.ab-text {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 1090px) {
+	.ab-text {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.ab-text {
+		font-size: 1.6em;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.ab-text {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 542px) {
+	.ab-text {
+		font-size: 1.3em;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	.ab-text {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 406px) {
+	.ab-text {
+		font-size: 1.1em;
+	}
+	.cont {
+		height: 370px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.ab-text {
+		font-size: 1em;
+	}
+	.sm-icon {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.ab-text {
+		font-size: .9em;
+	}
 }
 
 .sk-head {
@@ -86,7 +152,7 @@ body {
 	padding: 0 30px;
 	position: relative;
 	top: -45px;
-	left: 25px;
+	left: 35px;
 	font-size: 3em;
 	font-family: q;
 	display: inline;
@@ -101,7 +167,7 @@ body {
 	font-family: q;
 	display: inline-block;
 	position: relative;
-	top: -12px;
+	top: -17px;
 
 }
 
@@ -109,7 +175,7 @@ body {
 	position: absolute;
 	left: 200px;
 	border-radius: 20px;
-	height: 20px;
+	height: 10px;
 	border: 2px solid #04562A;
 	background-color: snow;
 	display: inline-block;
@@ -125,29 +191,34 @@ body {
 }
 
 #dr {
-	width: 70%;
+	width: 90%;
 	animation: gr .8s;
+	animation-delay: 0.5s;
 
 }
 
 #sc {
-	width: 50%;
+	width: 80%;
 	animation: gr .8s;
+	animation-delay: 0.5s;
 }
 
 #sw {
 	width: 90%;
 	animation: gr .8s;
+	animation-delay: 0.5s;
 }
 
 #cu {
-	width: 60%;
+	width: 70%;
 	animation: gr .8s;
+	animation-delay: 0.5s;
 }
 
 #pr {
-	width: 30%;
+	width: 40%;
 	animation: gr .8s;
+	animation-delay: 0.5s;
 }
 
 @keyframes gr {
@@ -160,32 +231,34 @@ body {
 }
 
 @media only screen and (max-width: 1120px) {
-	.skill-cont{
+	.skill-cont {
 		width: 55%;
 	}
 }
+
 @media only screen and (max-width: 999px) {
-	.skill-cont{
+	.skill-cont {
 		width: 50%;
 	}
 }
+
 @media only screen and (max-width: 900px) {
-	.half{
+	.half {
 		width: 100%;
-		
+
 	}
-	.half1{
+	.half1 {
 		width: 100%;
-	 	top: 570px;
+		top: 570px;
 		left: 0px;
 	}
-	.skill-name{
+	.skill-name {
 		font-size: 1.2em;
 		line-height: 40px;
-		
+
 	}
-	.skill-cont{
+	.skill-cont {
 		left: 150px;
 	}
-	
+
 }

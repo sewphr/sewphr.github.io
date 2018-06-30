@@ -1,0 +1,98 @@
+.icons {
+	width: 150px;
+	height: 150px;
+	margin: 35px;
+}
+
+
+html {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background-image: url(bga.png);
+	background-color: #023118;
+}
+
+.navbar li {
+	display: inline;
+}
+
+@font-face {
+	font-family: q;
+	src: url('qfont.ttf');
+}
+
+.sk-head {
+	background-color: snow;
+	border: 10px solid #04562A;
+	border-radius: 9px;
+	padding: 0 30px;
+	position: relative;
+	top: -45px;
+	left: 35px;
+	font-size: 3em;
+	font-family: q;
+	display: inline;
+}
+
+.cont {
+	width: 90%;
+	margin: 0 5%;
+	position: absolute;
+	height: 350px;
+	background: rgba(2050, 250, 250, .8);
+	border-radius: 7px;
+}
+.contact-info-bs li{
+	display: inline;
+}
+@media only screen and (max-width: 1400px){
+	.icons{
+		margin: 30px;
+		width: 120px;
+		height: 120px;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.icons{
+		margin: 20px;
+		width: 120px;
+		height: 120px;
+	}
+	.cont{
+		height: 450px;
+	}
+}
+@media only screen and (max-width: 580px){
+	.icons{
+		margin: 40px;
+		width: 120px;
+		height: 120px;
+	}
+	.cont{
+		height: 530px;
+	}
+}
+@media only screen and (max-width: 494px){
+	.icons{
+		margin: 20px;
+		width: 120px;
+		height: 120px;
+	}
+	.cont{
+		height: 530px;
+	}
+}
+@media only screen and (max-width: 406px){
+	.icons{
+		margin: 25px;
+		width: 80px;
+		height: 80px;
+	}
+	.cont{
+		height: 440px;
+	}
+}
