@@ -1,13 +1,16 @@
-var i = 0;
+var i = 0;	
+var z = 1;
 setInterval(function(){
 	if(i <= 5){
-	document.getElementById('pic').setAttribute("src", "pic"+i+".jpg");
+	document.getElementById("pic"+i).style.zIndex = z;
+		z++;
 		i++;
 	}
 	else{
 		i = 0;
-		document.getElementById('pic').setAttribute("src", "pic"+i+".jpg");
+		document.getElementById("pic"+i).style.zIndex = z;
 		i++;
+		z++;
 	}
 	
 }, 500);
