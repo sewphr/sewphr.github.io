@@ -13,7 +13,7 @@ setInterval(function(){
 		z++;
 	}
 	
-}, 500);
+}, 1500);
 if(screen.availWidth > 375){
 	document.getElementById('bd').style.display = "none";
 	alert("vagt olmade lap topa a vuram, gushi da ash bizahmat");
